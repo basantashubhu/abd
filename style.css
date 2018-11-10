@@ -1,0 +1,32 @@
+body {
+     padding: 0;
+     margin: 0;
+}
+
+table {
+     margin-top: 50px;
+     border: 1px solid red;
+     background-color: lightblue;
+     margin: auto;
+     border-collapse: collapse;
+}
+
+table td, table th {
+     padding: 5px;
+}
+
+table tfoot td{
+     border-top: 1px solid red;
+}
+
+table td:last-child input, table td:nth-last-child(2) input {
+     text-align: right;
+}
+
+table td:last-child, table td:nth-last-child(2) {
+     text-align: right;
+}
+
+input {
+     padding: 5px;
+}
